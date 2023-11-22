@@ -1,5 +1,14 @@
 # Model-View-Controller new project
 
+The template has already been completed.  
+Simply clone it and enter the following command in the terminal:
+
+```bash
+npm install
+```
+
+These are the steps taken to complete the template.
+
 ## 1. Initialiser le projet
 
 ```bash
@@ -140,7 +149,8 @@ const sequelize = require('../database/sequelize-client');
 // on défini notre Model et on y ajoute le Model de sequelize
 class Example extends Model {}
 
-// on indique a sequelize quels sont les attributs de notre Model en fonction de ses propriétés dans notre bdd
+// on indique a sequelize quels sont les attributs de notre Model 
+// en fonction de ses propriétés dans notre bdd
 Example.init(
   {
     attribut1: {
